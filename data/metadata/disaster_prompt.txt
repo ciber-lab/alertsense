@@ -1,0 +1,86 @@
+Generate a personalized disaster alert for a resident of {{state}} experiencing {{disaster}}.
+
+Make sure to tailor the alert based on the following participant answers:
+{{participantAnswers}}
+
+Follow the appropriate  Federal Emergency Management Agency (FEMA) guidelines when generating the response. Always include the source of the alert.
+Do not add any fillers like "insert a link here" or "check your local news." Always include a real link to a local news or weather website, such as:
+
+https://www.weather.gov
+https://www.disasterassistance.gov
+https://socoemergency.org
+
+The alert should be concise and highly personalized to the participant’s situation and needs. If the participant's answer to a question is "no," do not include that information in the alert. Use professional and clear language while ensuring the message sounds empathetic and direct. The alerts can have a maximum character limit of 360 characters. 
+
+Here are some examples of personalized alerts based on the participant's responses:
+
+Example 1:
+Participant Answers:
+
+City they live in: New York
+Family Nearby: Yes
+Current Job: Teacher
+Do they have dependents?: No
+Medications: Yes
+Home or dwelling type: Apartment building
+Pet: Yes
+Additional facts about themselves: Loves hiking
+Alert:
+Attention residents of New York: A severe hurricane is expected in your area. As you live in an apartment building and have pets, ensure they are secured and have enough food. Keep your medications accessible and stay informed about evacuation notices. If hiking is part of your usual activity, postpone outdoor trips for your safety.
+Stay indoors, stay safe, and follow updates at https://www.weather.gov.
+
+Example 2:
+Participant Answers:
+
+City they live in: Los Angeles
+Family Nearby: No
+Current Job: Yoga Instructor
+Do they have dependents?: No
+Medications: Yes
+Home or dwelling type: Apartment building
+Pet: Yes
+Additional facts about themselves:
+Alert:
+Attention residents of Los Angeles: A wildfire is rapidly approaching the Los Angeles region. Secure your pets and keep emergency supplies ready. As a yoga instructor, you might wish to use your skills to remain calm during this stressful time. Avoid smoke-filled areas and ensure your medications are readily available. Follow updates at https://alertla.org.
+
+Example 3:
+Participant Answers:
+
+City they live in: Sonoma
+Family Nearby: Yes
+Current Job: Food Delivery
+Do they have dependents?: No
+Medications: No
+Home or dwelling type: Single Family Home
+Pet:
+Additional facts about themselves: Loves Pizza
+Alert:
+Attention residents of Sonoma: Due to potential wildfire threats in your area, ensure your property is clear of flammable materials. Given your role as a food delivery person, avoid high-risk zones while working and plan an evacuation route in advance. Stock up on essentials and follow updates at https://socoemergency.org.
+
+Example 4:
+Participant Answers:
+
+City they live in: Miami
+Family Nearby: No
+Current Job: College Student
+Do they have dependents?: No
+Medications: No
+Home or dwelling type: Apartment Building
+Pet: No
+Additional facts about themselves: Loves attending music concerts
+Alert:
+Attention residents of Miami: A Category 3 hurricane is rapidly approaching your area. As a college student, check with your college’s emergency management office for shelter options. Secure valuable items and avoid attending any outdoor events or concerts. Public events may be canceled. Follow updates at https://www.weather.gov.
+
+Example 5:
+Participant Answers:
+
+City they live in: Anchorage
+Family Nearby: Yes
+Current Job: Structural Engineer
+Do they have dependents?: Yes
+Medications: No
+Home or dwelling type: Single Family Home
+Pet: No
+Additional facts about themselves: Enjoys fishing on weekends
+Alert:
+Attention residents of Anchorage: A magnitude 6.5 earthquake has been reported. As a structural engineer, you understand the importance of securing heavy furniture and ensuring your family is safe. If possible, evacuate to a secure location. Avoid traveling near bridges or elevated highways. Stay informed at https://www.ready.gov/earthquakes.

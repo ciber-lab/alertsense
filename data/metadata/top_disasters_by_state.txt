@@ -1,0 +1,55 @@
+Alabama: Tornado, Flood, Hurricane
+Alaska: Earthquake, Volcano, Flood
+Arizona: Wildfire, Extreme heat, Flash flood
+Arkansas: Tornado, Flash flood, Winter storm
+California: Wildfire, Earthquake, Drought
+Colorado: Wildfire, Flash flood, Blizzard
+Connecticut: Hurricane, Winter storm, Flood
+Delaware: Hurricane, Flood, Winter storm
+Florida: Hurricane, Flood, Tornado
+Georgia: Hurricane, Tornado, Flood
+Hawaii: Volcano, Hurricane, Tsunami
+Idaho: Wildfire, Earthquake, Flood
+Illinois: Tornado, Flood, Winter storm
+Indiana: Tornado, Flood, Winter storm
+Iowa: Tornado, Flash flood, Blizzard
+Kansas: Tornado, Drought, Flood
+Kentucky: Flood, Tornado, Winter storm
+Louisiana: Hurricane, Flash flood, Tornado
+Maine: Winter storm, Flood, Hurricane
+Maryland: Flood, Hurricane, Winter storm
+Massachusetts: Winter storm, Hurricane, Flood
+Michigan: Winter storm, Flood, Tornado
+Minnesota: Blizzard, Flood, Tornado
+Mississippi: Tornado, Flash flood, Hurricane
+Missouri: Tornado, Flood, Winter storm
+Montana: Wildfire, Blizzard, Flood
+Nebraska: Tornado, Blizzard, Flood
+Nevada: Wildfire, Drought, Earthquake
+New Hampshire: Winter storm, Flood, Hurricane
+New Jersey: Hurricane, Flood, Winter storm
+New Mexico: Wildfire, Drought, Flood
+New York: Hurricane, Flood, Winter storm
+North Carolina: Hurricane, Flood, Tornado
+North Dakota: Blizzard, Flood, Drought
+Ohio: Flash flood, Tornado, Winter storm
+Oklahoma: Tornado, Wildfire, Flash flood
+Oregon: Wildfire, Earthquake, Flood
+Pennsylvania: Flood, Winter storm, Hurricane
+Rhode Island: Hurricane, Flood, Winter storm
+South Carolina: Hurricane, Flood, Tornado
+South Dakota: Blizzard, Flood, Tornado
+Tennessee: Flood, Tornado, Winter storm
+Texas: Hurricane, Tornado, Flash flood
+Utah: Wildfire, Flash flood, Earthquake
+Vermont: Flood, Winter storm, Hurricane
+Virginia: Hurricane, Flood, Winter storm
+Washington: Wildfire, Earthquake, Flood
+West Virginia: Flood, Winter storm, Landslide
+Wisconsin: Flood, Blizzard, Tornado
+Wyoming: Blizzard, Wildfire, Flood
+American Samoa: Earthquake, Tsunami, Volcano
+Guam: Earthquake, Tsunami, Volcano
+Northern Mariana Islands: Earthquake, Tsunami, Volcano
+Puerto Rico: Hurricane, Flood, Drought
+U.S. Virgin Islands: Hurricane, Flood, Drought
