@@ -36,9 +36,15 @@ The table below presents representative examples of disaster alerts used in the 
       <td style="vertical-align: top;">
         Flood emergency: Stay where you are. Do not attempt to drive. Do not enter the water. Climb to higher ground to evacuate. Consider all roads closed until further notice.
       </td>
-      <td style="vertical-align: top;">
-        Attention residents of Seattle: Heavy rain and potential flooding are impacting your area. Secure your pets, gather medications, and ensure family members are prepared. Your single-family home may be at risk; have an evacuation plan ready. Monitor flood warnings at  <a href="https://www.weather.gov">https://www.weather.gov</a>.
-      </td>
+      <td>
+      <div style="display: block;">
+        Attention residents of Seattle: Heavy rain and potential flooding are impacting your area.<br><br>
+        Secure your pets, gather medications, and ensure family members are prepared.<br><br>
+        Your single-family home may be at risk; have an evacuation plan ready.<br><br>
+        Monitor flood warnings at 
+        <a href="https://www.weather.gov">weather.gov</a>.
+      </div>
+    </td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><b>Tornado</b></td>
