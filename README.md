@@ -1,4 +1,4 @@
-# The ALERTSENSE Dataset: Comparing Human Perception of AI-Generated Disaster Alerts and Conventional Warnings 
+# The ALERTSENSE Dataset: Comparing Human Perception of AI-Personalized Disaster Alerts and Conventional Warnings 
 
 ## **Table of Contents**
 
@@ -71,7 +71,7 @@ Each row represents one participant, and each column corresponds to a specific s
 | home_type_text | Open-ended housing description (if “Other”) |
 | pet | Whether the participant owns pets (Yes/No) |
 | fun_fact | Optional fun fact provided by the participant |
-| condition<sup>∆</sup> | Experimental condition (1 = Traditional alert, 2 = AI-generated alert) |
+| condition<sup>∆</sup> | Experimental condition (1 = Standard alert, 2 = AI-personalized alert) |
 | alert_display<sup>∆</sup> | Exact disaster alert text shown to the participant |
 | selected_disaster<sup>∆</sup> | Disaster category assigned based on participant ZIP code |
 | clarity | Perceived clarity of the alert (5-point Likert scale) |
