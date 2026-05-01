@@ -25,41 +25,26 @@ The table below presents representative examples of disaster alerts used in the 
 <table>
   <thead>
     <tr>
-      <th>Event</th>
-      <th>Condition 1 (Standard alert)</th>
-      <th>Condition 2 (AI-personalized alert)</th>
+      <th valign="top">Event</th>
+      <th valign="top">Condition 1 (Standard alert)</th>
+      <th valign="top">Condition 2 (AI-personalized alert)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="vertical-align: top;"><b>Flood</b></td>
-      <td style="vertical-align: top;">
-        Flood emergency: Stay where you are. Do not attempt to drive. Do not enter the water. Climb to higher ground to evacuate. Consider all roads closed until further notice.
-      </td>
-      <td>
-      <div style="display: block;">
-        Attention residents of Seattle: Heavy rain and potential flooding are impacting your area. Secure your pets, gather medications, and ensure family members are prepared.<br><br>
-        Your single-family home may be at risk; have an evacuation plan ready. Monitor flood warnings at <a href="https://www.weather.gov">weather.gov</a>.
-      </div>
-    </td>
+      <td valign="top"><b>Flood</b></td>
+      <td valign="top">Flood emergency: Stay where you are. Do not attempt to drive. Do not enter the water. Climb to higher ground to evacuate. Consider all roads closed until further notice.</td>
+      <td valign="top">Attention residents of Seattle: Heavy rain and potential flooding are impacting your area. Secure your pets, gather medications, and ensure family members are prepared. Your single-family home may be at risk; have an evacuation plan ready. Monitor flood warnings at <a href="https://www.weather.gov">https://www.weather.gov</a>.</td>
     </tr>
     <tr>
-      <td style="vertical-align: top;"><b>Tornado</b></td>
-      <td style="vertical-align: top;">
-        National Weather Service: Tornado warning in this area until 12:15 PM. Take shelter now in a basement or an interior room on the lowest floor of a sturdy building. If you are outdoors, in a mobile home, or a vehicle, move to the closest substantial shelter and protect yourself from flying debris. Check the media.
-      </td>
-      <td style="vertical-align: top;">
-        Attention residents of Terre Haute: A tornado is imminent. Seek immediate shelter in a basement or interior room. Keep medications accessible. Contact family members. Follow updates at <a href="https://www.weather.gov">https://www.weather.gov</a>.
-      </td>
+      <td valign="top"><b>Tornado</b></td>
+      <td valign="top">National Weather Service: Tornado warning in this area until 12:15 PM. Take shelter now in a basement or an interior room on the lowest floor of a sturdy building. If you are outdoors, in a mobile home, or a vehicle, move to the closest substantial shelter and protect yourself from flying debris. Check the media.</td>
+      <td valign="top">Attention residents of Terre Haute: A tornado is imminent. Seek immediate shelter in a basement or interior room. Keep medications accessible. Contact family members. Follow updates at <a href="https://www.weather.gov">https://www.weather.gov</a>.</td>
     </tr>
     <tr>
-      <td style="vertical-align: top;"><b>Winter storm</b></td>
-      <td style="vertical-align: top;">
-        The County Sheriff's Office has placed a No Travel Advisory throughout the County until the winter storm passes and driving conditions improve. Monitor local news for updates on the road conditions.
-      </td>
-      <td style="vertical-align: top;">
-        Attention Staten Island residents: Winter storm approaching. Secure your pets, family, and medications. Stock up on pizza. Monitor evacuation notices. Follow updates at <a href="https://www.weather.gov">https://www.weather.gov</a>.
-      </td>
+      <td valign="top"><b>Winter storm</b></td>
+      <td valign="top">The County Sheriff's Office has placed a No Travel Advisory throughout the County until the winter storm passes and driving conditions improve. Monitor local news for updates on the road conditions.</td>
+      <td valign="top">Attention Staten Island residents: Winter storm approaching. Secure your pets, family, and medications. Stock up on pizza. Monitor evacuation notices. Follow updates at <a href="https://www.weather.gov">https://www.weather.gov</a>.</td>
     </tr>
   </tbody>
 </table>
