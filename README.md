@@ -20,6 +20,15 @@ The study was conducted with approval from the University of Colorado Boulder's 
 
 ## **Sample Disaster Alerts**
 
+The table below presents representative examples of disaster alerts used in the study across both experimental conditions. Condition 1 includes standard, non-personalized alerts, while Condition 2 includes AI-personalized alerts tailored to participant-specific context. 
+
+
+| Event | Condition 1 (Standard alert) | Condition 2 (AI-personalized alert) |
+|------|-----------------------------|-------------------------------------|
+| Flood | Flood emergency: Stay where you are. Do not attempt to drive. Do not enter the water. Climb to higher ground to evacuate. Consider all roads closed until further notice. | Attention residents of Seattle: Heavy rain and potential flooding are impacting your area. Secure your pets, gather medications, and ensure family members are prepared. Your single-family home may be at risk; have an evacuation plan ready. Monitor flood warnings at https://www.weather.gov. |
+| Tornado | National Weather Service: Tornado warning in this area until 12:15 PM. Take shelter now in a basement or an interior room on the lowest floor of a sturdy building. If you are outdoors, in a mobile home, or a vehicle, move to the closest substantial shelter and protect yourself from flying debris. Check the media. | Attention residents of Terre Haute: A tornado is imminent. Seek immediate shelter in a basement or interior room. Keep medications accessible. Contact family members. Follow updates at https://www.weather.gov. |
+| Winter storm | The County Sheriff's Office has placed a No Travel Advisory throughout the County until the winter storm passes and driving conditions improve. Monitor local news for updates on the road conditions. | Attention Staten Island residents: Winter storm approaching. Secure your pets, family, and medications. Stock up on pizza. Monitor evacuation notices. Follow updates at https://www.weather.gov. |
+
 ## **Dataset**
 The ALERTSENSE dataset is provided as a single CSV file located at: data/mturk_data.csv 
 
@@ -95,7 +104,7 @@ This file contains the library of standard, human-authored disaster alerts used 
 
 Alerts were sourced from authoritative public warning systems, including NWS and PBS WARN. Each alert corresponds to a specific disaster type (e.g., flood, wildfire, winter storm) and adheres to established public alerting standards, including concise language and standardized structure. These alerts serve as the baseline against which AI-personalized alerts were evaluated. 
 
-#### [`top_disaster_by_state.txt`](data/metadata/top_disaster_by_state.txt)
+#### [`top_disaster_by_state.txt`](data/metadata/top_disasters_by_state.txt)
 This file maps each U.S. state to its three most frequent disaster types, derived from historical hazard data reported by the National Oceanic and Atmospheric Administration (NOAA) U.S. billion-dollar weather and climate disasters database. 
 
 Participants’ self-reported ZIP codes were validated and used to determine their state, after which one disaster type was randomly selected from the top three disasters associated with that state. This ensured that participants evaluated alerts for hazards that were geographically realistic and relevant to their location. This file documents the state-to-disaster logic embedded in the survey and supports transparent verification of disaster assignment. 
@@ -139,5 +148,5 @@ The goal of this tutorial is to help users quickly understand the dataset struct
 
 This tutorial focuses on geographical data processing for `mturk_data.csv`. 
 
-It demonstrates how to: It demonstrates how to:
+It demonstrates how to:
 - Extract **city** and **state** from ZIP codes using `pgeocode`
