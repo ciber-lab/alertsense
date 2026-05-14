@@ -52,7 +52,7 @@ The table below presents representative examples of disaster alerts used in the 
 ## **Dataset**
 The ALERTSENSE dataset is provided as a single CSV file located at: data/mturk_data.csv 
 
-This file contains all cleaned responses from the survey (N = 503), including sociodemographic factors (gender, age, education, language preference, prior disaster experience), personal traits (living close to family, having dependent family members, use of medication, pet ownership, home type),  U.S. ZIP code, the exact alert text each participant viewed, and Likert-scale evaluations. 
+This file contains all cleaned responses from the survey (N = 503), including sociodemographic factors (gender, age, education, language preference, prior disaster experience), personal traits (living close to family, having dependent family members, use of medication, pet ownership, home type),  U.S. Zip code, the exact alert text each participant viewed, and Likert-scale evaluations. 
 
 Each row represents one participant, and each column corresponds to a specific survey field or derived variable. The table below describes every column included in the dataset. 
 
@@ -65,9 +65,9 @@ Each row represents one participant, and each column corresponds to a specific s
 |-----------|-------------|
 | participant_id<sup>*</sup> | Encrypted MTurk worker ID for participants |
 | age | Age bracket selected by participant |
-| participant_Zipcode | Participant’s self-reported ZIP code |
-| participant_city<sup>*</sup> | Participant’s U.S. city derived from ZIP code |
-| participant_state<sup>*</sup> | Participant’s U.S. state derived from ZIP code |
+| participant_Zipcode | Participant’s self-reported Zip code |
+| participant_city<sup>*</sup> | Participant’s U.S. city derived from Zip code |
+| participant_state<sup>*</sup> | Participant’s U.S. state derived from Zip code |
 | gender | Participant’s self-reported gender |
 | hispanic_or_latino | Participant’s ethnicity identification (Hispanic/Latino) |
 | race | Participant’s self-reported race category |
@@ -102,7 +102,7 @@ Each row represents one participant, and each column corresponds to a specific s
 | fun_fact | Optional fun fact provided by the participant |
 | condition<sup>∆</sup> | Experimental condition (1 = Standard alert, 2 = AI-personalized alert) |
 | alert_display<sup>∆</sup> | Exact disaster alert text shown to the participant |
-| selected_disaster<sup>∆</sup> | Disaster category assigned based on participant ZIP code |
+| selected_disaster<sup>∆</sup> | Disaster category assigned based on participant Zip code |
 | clarity | Perceived clarity of the alert (5-point Likert scale) |
 | trust | Perceived trustworthiness of the alert (5-point Likert scale) |
 | relevance | Perceived relevance of the alert (5-point Likert scale) |
@@ -127,7 +127,7 @@ Alerts were sourced from authoritative public warning systems, including NWS and
 #### [`top_disaster_by_state.txt`](data/metadata/top_disasters_by_state.txt)
 This file maps each U.S. state to its three most frequent disaster types, derived from historical hazard data reported by the National Oceanic and Atmospheric Administration (NOAA) U.S. billion-dollar weather and climate disasters database. 
 
-Participants’ self-reported ZIP codes were validated and used to determine their state, after which one disaster type was randomly selected from the top three disasters associated with that state. This ensured that participants evaluated alerts for hazards that were geographically realistic and relevant to their location. This file documents the state-to-disaster logic embedded in the survey and supports transparent verification of disaster assignment. 
+Participants’ self-reported Zip codes were validated and used to determine their state, after which one disaster type was randomly selected from the top three disasters associated with that state. This ensured that participants evaluated alerts for hazards that were geographically realistic and relevant to their location. This file documents the state-to-disaster logic embedded in the survey and supports transparent verification of disaster assignment. 
 
 ---
 
@@ -163,10 +163,10 @@ The goal of this tutorial is to help users quickly understand the dataset struct
 
 ---
 
-### **2. ZIP Code, City, and State Extraction**
+### **2. Zip Code, City, and State Extraction**
 **Notebook:** `tutorials/geolocation_extraction.ipynb`  
 
 This tutorial focuses on geographical data processing for `mturk_data.csv`. 
 
 It demonstrates how to:
-- Extract **city** and **state** from ZIP codes using `pgeocode`
+- Extract **city** and **state** from Zip codes using `pgeocode`
