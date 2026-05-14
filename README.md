@@ -65,7 +65,7 @@ Each row represents one participant, and each column corresponds to a specific s
 |-----------|-------------|
 | participant_id<sup>*</sup> | Encrypted MTurk worker ID for participants |
 | age | Age bracket selected by participant |
-| participant_ZIPcode | Participant’s self-reported ZIP code |
+| participant_Zipcode | Participant’s self-reported ZIP code |
 | participant_city<sup>*</sup> | Participant’s U.S. city derived from ZIP code |
 | participant_state<sup>*</sup> | Participant’s U.S. state derived from ZIP code |
 | gender | Participant’s self-reported gender |
