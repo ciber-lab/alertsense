@@ -106,9 +106,9 @@ Each row represents one participant, and each column corresponds to a specific s
 | clarity | Perceived clarity of the alert (5-point Likert scale) |
 | trust | Perceived trustworthiness of the alert (5-point Likert scale) |
 | relevance | Perceived relevance of the alert (5-point Likert scale) |
-| influence | Perceived preparedness after reading the alert (5-point Likert scale) |
-| confidence | Confidence in knowing what actions to take (5-point Likert scale) |
-| certainty | Degree to which the alert reduced uncertainty (5-point Likert scale) |
+| influence | Perceived influence of the alert (5-point Likert scale) |
+| confidence | Perceived confidence in the alert (5-point Likert scale) |
+| certainty | Perceived certainty in the alert (5-point Likert scale) |
 
 ## Metadata Files
 
