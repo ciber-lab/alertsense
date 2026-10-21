@@ -175,4 +175,18 @@ It demonstrates how to:
 
 The following article contains detailed analyses of human risk perception of AI-personalized disaster alerts, obtained from a randomized controlled trial. Please cite this article if you find it useful in your research. Thank you!
 
+Dinesh S., Maitra A., Painter M.A., Behzadan A.H. (2026), “Public Perception of AI-Personalized Disaster Alerts: Evidence from a Randomized Controlled Trial”, International Journal of Disaster Risk Reduction, Article 106346. https://doi.org/10.1016/j.ijdrr.2026.106346
+
+LaTeX citation:
+```bibtex
+@ARTICLE{dinesh2026alerts,
+    author = {Dinesh, Subashree and Maitra, Arunima and Painter, Mary Angelica and Behzadan, Amir H.},
+    title = {Public Perception of AI-Personalized Disaster Alerts: Evidence from a Randomized Controlled Trial},
+    journal = {International Journal of Disaster Risk Reduction},
+    year = {2026},
+    pages = {106346},
+    doi = {10.1016/j.ijdrr.2026.106346},
+    url = {https://doi.org/10.1016/j.ijdrr.2026.106346}
+}
+
 
