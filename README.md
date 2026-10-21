@@ -170,3 +170,9 @@ This tutorial focuses on geographical data processing for `mturk_data.csv`.
 
 It demonstrates how to:
 - Extract **city** and **state** from Zip codes using `pgeocode`
+
+## **Related Article** 
+
+The following article contains detailed analyses of human risk perception of AI-personalized disaster alerts, obtained from a randomized controlled trial. Please cite this article if you find it useful in your research. Thank you!
+
+
