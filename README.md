@@ -180,13 +180,12 @@ Dinesh S., Maitra A., Painter M.A., Behzadan A.H. (2026), “Public Perception o
 LaTeX citation:
 ```bibtex
 @ARTICLE{dinesh2026alerts,
-    author = {Dinesh, Subashree and Maitra, Arunima and Painter, Mary Angelica and Behzadan, Amir H.},
+    author = {Dinesh S., Maitra A., Painter M.A., and Behzadan A.H.},
     title = {Public Perception of AI-Personalized Disaster Alerts: Evidence from a Randomized Controlled Trial},
     journal = {International Journal of Disaster Risk Reduction},
     year = {2026},
     pages = {106346},
-    doi = {10.1016/j.ijdrr.2026.106346},
-    url = {https://doi.org/10.1016/j.ijdrr.2026.106346}
+    doi = {10.1016/j.ijdrr.2026.106346}
 }
 
 
